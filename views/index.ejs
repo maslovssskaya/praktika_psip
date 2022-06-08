@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="page-header-one">
+        <div class="header-element-one">
+          Рус
+          <img class="emblem" src="./pic/region.jpg" alt="regoin" />
+          Адрес
+          <img class="emblem" src="./pic/tel.jpg" alt="tel" />
+          (067) 198-33-77
+        </div>
+
+        <img class="osn-emblem" src="./pic/emblem.jpg" alt="emblem" />
+
+        <div class="header-element-one menu">
+          <img class="emblem" src="./pic/lupa.jpg" alt="lupa" />
+          Поиск
+          <img class="emblem" src="./pic/chel.jpg" alt="chel" />
+          Войти
+          <img class="emblem" src="./pic/korzina.jpg" alt="korzina" />
+          Корзина
+        </div>
+
+        <div class="burger header-element-one">
+          <button class="burger-button">
+            <img src="./pic/burger.svg" alt="Меню">
+          </button>
+        </div>
+
+        <div class="burger-menu">
+          <button class="close-menu-button">
+            Закрыть
+          </button>
+          <div>Костюмы</div>
+          <div>Халаты</div>
+          <div>Топы</div>
+          <div>Брюки</div>
+          <div>Толстовки</div>
+          <div>Шапочки</div>
+          <div>Обувь</div>
+          <div>Акции</div>  
+        </div>
+      </div>
+      <div class="page-header-two container">
+        <div class="header-element-two">Костюмы</div>
+        <div class="header-element-two">Халаты</div>
+        <div class="header-element-two">Топы</div>
+        <div class="header-element-two">Брюки</div>
+        <div class="header-element-two">Толстовки</div>
+        <div class="header-element-two">Шапочки</div>
+        <div class="header-element-two">Обувь</div>
+        <div class="header-element-two">Акции</div>
+      </div>
+      <hr/>
+    </header>
+
+    <main class="container">
+      <div id="overlay">
+        <div class="popup">
+          <h3>Вступайте в политех!</h3>
+          <a href="http://ggpk.by">
+            <img src="https://play-lh.googleusercontent.com/0gd8HvcsM5_ApL0OsN18YN4EYFboS20igCE31N0a1eZ9OFtbGRE3CFjSJL9DVKqxrdU" alt="GGPK  ">
+          </a>
+          <button class="close" title="Закрыть" onclick="document.getElementById('overlay').style.display='none';"></button>
+        </div>
+    </div>
+      <div class="banner carousel">
+        <img class="banner-element carousel-item" src="./pic/banner.png" alt="banner" />
+        <img class="banner-element carousel-item" src="./pic/banner.png" alt="banner" />
+        <img class="banner-element carousel-item" src="./pic/banner.png" alt="banner" />
+      </div>
+
+      <div class="text-style">Топ продаж</div>
+
+      <div class="hits-container">
+        <div class="slider-button-container left-slider-button">
+          <button class="slider-button">
+            <img src="./pic/arrow-left.svg" alt="arrow-left" />
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar1.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="sales-hit">Хит продаж</button>
+              <button class="new-product">Новинка</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский костюм</div>
+            <div class="price">900 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar2.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="sales-hit">Хит продаж</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский халат</div>
+            <div class="price">800 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar3.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="sales-hit">
+                Хит продаж
+                <button class="new-product">Новинка</button>
+              </button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский костюм</div>
+            <div class="price">900 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar4.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="sales-hit">Хит продаж</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женские кроксы</div>
+            <div class="price">600 грн</div>
+          </div>
+        </div>
+        <div class="slider-button-container right-slider-button">
+          <button class="slider-button">
+            <img src="./pic/arrow-right.svg" alt="arrow-right" />
+          </button>
+        </div>
+      </div>
+
+      <div class="text-style">Каталог</div>
+      <div class="hits-container">
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_1.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Костюмы</div>
+            <div class="about-catalog">
+              Мужские и женские. Медицинские и хирургические
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_2.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Халаты</div>
+            <div class="about-catalog">Белые и цветные халаты для женщин</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_3.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Топы</div>
+            <div class="about-catalog">Цветные топы с рисунками</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hits-container">
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_4.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Брюки</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_5.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Толстовки</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_6.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Шапочки</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/kategor_7.png" alt="tovar" />
+          </div>
+          <div class="description-container">
+            <div class="title-catalog">Обувь</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-style">Новые поступления</div>
+
+      <div class="hits-container">
+        <div class="slider-button-container left-slider-button">
+          <button class="slider-button">
+            <img src="./pic/arrow-left.svg" alt="arrow-left" />
+          </button>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar1.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="new-product">Новинка</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский костюм</div>
+            <div class="price">900 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product" src="./pic/top_tovar2.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="new-product">Новинка</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский халат</div>
+            <div class="price">800 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar3.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="new-product">Новинка</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женский медицинский костюм</div>
+            <div class="price">900 грн</div>
+          </div>
+        </div>
+        <div class="product-container">
+          <div class="image-container">
+            <img class="hits-product materialboxed" src="./pic/top_tovar4.png" alt="tovar" />
+            <div class="buttons-container">
+              <button class="new-product">Новинка</button>
+            </div>
+          </div>
+          <div class="description-container">
+            <div class="title">Женские кроксы</div>
+            <div class="price">600 грн</div>
+          </div>
+        </div>
+        <div class="slider-button-container right-slider-button">
+          <button class="slider-button">
+            <img src="./pic/arrow-right.svg" alt="arrow-left" />
+          </button>
+        </div>
+      </div>
+
+      <hr />
+      <div class="about-conteiner">
+        <div class="about-element">
+          <div class="about__title">Наш магазин в Киеве</div>
+          <div class="about__adress">
+            ТЦ "Променада Центр", вулиця Овруцька, 18
+          </div>
+          <div class="about__phone-number">+38 (067) 198-33-77</div>
+          <div class="about__schedule">Ежедневно с 10:00 до 20:00</div>
+          <div class="about__see-on-map">
+            <button class="about__see-on-map-button">
+              Посмотреть на карте
+            </button>
+          </div>
+        </div>
+        <div class="kiev-store-image-container">
+          <img class="materialboxed" src="./pic/med-forma-store.jpg" alt="about" />
+        </div>
+      </div>
+      <div>
+        <h3>Оставьте отзыв о сайте!</h3>
+        <form class="review-form" novalidate action="/review" method="post">
+          <label for="email">Введите вашу почту: </label><br>
+          <input type="email" name="email" id="email"><br><br>
+          <textarea name="reviewText" id="reviewText" cols="30" rows="10"></textarea><br>
+          <button type="submit">Оставить</button>
+        </form>
+      </div>
+      <br>
+    </main>
+    <footer class="footer">
+      <div class="footer__links">
+        <div class="links-section">
+          <div class="logo">
+            <img src="./pic/footer-logo.svg" alt="logo" />
+          </div>
+          <div class="socials">
+            <a href="#"
+              ><img src="./pic/instagram-logo.svg" alt="instagram"
+            /></a>
+            <a href="#"><img src="./pic/facebook-logo.svg" alt="facebook" /></a>
+          </div>
+        </div>
+        <div class="links-section">
+          <div class="section-header">Каталог</div>
+          <ul class="links-section-list">
+            <li class="section-list-item"><a href="#">Костюмы</a></li>
+            <li class="section-list-item"><a href="#">Халаты</a></li>
+            <li class="section-list-item"><a href="#">Топы</a></li>
+            <li class="section-list-item"><a href="#">Брюки</a></li>
+            <li class="section-list-item"><a href="#">Толстовки</a></li>
+            <li class="section-list-item"><a href="#">Шапочки</a></li>
+            <li class="section-list-item"><a href="#">Обувь</a></li>
+          </ul>
+        </div>
+        <div class="links-section">
+          <div class="section-header">Информация</div>
+          <ul class="links-section-list">
+            <li class="section-list-item"><a href="#">Доставка и оплата</a></li>
+            <li class="section-list-item">
+              <a href="#">Гарантия и возврат</a>
+            </li>
+            <li class="section-list-item">
+              <a href="#">Корпоративным клиентам</a>
+            </li>
+            <li class="section-list-item"><a href="#">О нас</a></li>
+            <li class="section-list-item"><a href="#">Контакты</a></li>
+            <li class="section-list-item">
+              <a href="#">Политика конфиденциальности</a>
+            </li>
+            <li class="section-list-item"><a href="#">Договор оферты</a></li>
+          </ul>
+        </div>
+        <div class="links-section">
+          <div class="section-header">Контакты</div>
+          <ul class="links-section-list">
+            <li class="section-list-item">
+              ТЦ "Променада Центр", вулиця Овруцька, 18
+            </li>
+            <li class="section-list-item grey-text">
+              Ежедневно с 10:00 до 20:00
+            </li>
+            <li class="section-list-item">+38 (067) 198-33-77</li>
+            <li class="section-list-item">
+              <ul class="messangers-list">
+                <li class="messangers-list-item">
+                  <a href="#"><img src="./pic/viber-logo.svg" alt="Viber" /></a>
+                </li>
+                <li class="messangers-list-item">
+                  <a href="#"
+                    ><img src="./pic/telegram-logo.svg" alt="Telegram"
+                  /></a>
+                </li>
+                <li class="messangers-list-item">
+                  <a href="#"
+                    ><img src="./pic/whatsup-logo.svg" alt="What's up"
+                  /></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer__copyright grey-text">
+        <div class="footer__copyright-sign">© 2022 MedForma</div>
+        <div class="footer__copyright-naming">
+          Разработка интернет-магазина: Walnut
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/main.js"></script>
+  </html>
